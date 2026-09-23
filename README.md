@@ -1,6 +1,6 @@
 # MCU StudioX 器件包
 
-这里按芯片品牌存放 MCU StudioX 的 `.mcupack` 器件包。当前公开目录仅收录已核对来源、第三方许可和包内容的 StudioX Pack **格式 1** 包。
+这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。当前公开目录仅收录已核对来源、第三方许可和包内容的 StudioX Pack **格式 1** 包。
 
 | 品牌 | 器件包 | 版本 | 收录范围 | 验证状态 |
 | --- | --- | --- | --- | --- |
