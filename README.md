@@ -1,6 +1,6 @@
 # MCU StudioX 器件包
 
-这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。当前公开目录收录 16 个普冉 PY32 包和 1 个 Raspberry Pi RP2350 包，均采用 StudioX Pack **格式 1**。
+这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。当前公开目录收录 16 个普冉 PY32 包、1 个 Raspberry Pi RP2350 包及 2 个 STM32 HAL 包，均采用 StudioX Pack **格式 1**。
 
 | 品牌 | 器件包 | 版本 | 收录范围 | 验证状态 |
 | --- | --- | --- | --- | --- |
@@ -21,11 +21,15 @@
 | 普冉 Puya | [PY32F410](Puya/puya.py32f410-0.1.0.mcupack) | 0.1.0 | 6 个完整料号 | 工程创建和代表型号编译通过；尚无实板测试 |
 | 普冉 Puya | [PY32F420](Puya/puya.py32f420-0.1.0.mcupack) | 0.1.0 | 2 个完整料号 | 工程创建和代表型号编译通过；尚无实板测试 |
 | Raspberry Pi | [RP2350](Raspberry-Pi/raspberrypi.rp2350-0.1.0.mcupack) | 0.1.0 | RP2350A、Pico 2 / 相同配置的兼容板 | C 工程编译及一块 Pico 2 兼容板的下载、调试已验证 |
+| STMicroelectronics | [STM32F103](STMicroelectronics/studiox.stm32f103-0.1.2.mcupack) | 0.1.2 | 29 个基础型号；HAL、HAL + FreeRTOS | F103C8 两模板真实编译通过；其他型号与实板尚未验收 |
+| STMicroelectronics | [STM32F407](STMicroelectronics/studiox.stm32f407-0.1.2.mcupack) | 0.1.2 | 6 个基础型号；HAL、HAL + FreeRTOS | F407ZG 两模板真实编译通过；其他型号与实板尚未验收 |
 
 在 MCU StudioX 的器件包管理界面导入所需的 `.mcupack`，再按目标芯片或板卡新建工程。器件包不包含编译器或调试器可执行文件，构建还需 IDE 配套工具链。每个包内的 `manifest.json` 列出具体型号、模板和工具要求，`README.md` 说明使用范围，`provenance.json` 记录 SDK 来源与校验信息。
 
 PY32 共有 27 个 F0 容量型号和 19 个 F4 完整料号。新增 13 个 F0 包已通过项目校验器的 **81 次工程创建和 81 次真实编译**，没有访问硬件。PY32 的实板下载和调试尚未验收，这些包没有声明下载或调试目标。RP2350 包针对外部 12 MHz 晶振、4 MiB QSPI Flash 的 RP2350A 板型；实板结果不能推广到其他 RP2350 板型、RISC-V 内核或 Pico 2 W。
 
 F005/F040/F071/F072 的 0.1.2 版与 F031/F032/F033/F090/F092 的 0.1.1 版仅补入 Arm CMSIS 所需的 Apache-2.0 许可正文并更新包版本和校验索引；原厂 SDK 源文件、器件参数与构建配置未改动。版本号提升使已导入旧版的用户可并存安装。
+
+STM32 两包只含来自 ST 官方 STM32CubeF1/F4 的 CMSIS、HAL、启动文件及 FreeRTOS 10.3.1（FreeRTOS 来自 STM32CubeF4），不含 SPL、Keil DFP 源文件或工具链二进制。两包完成了格式导入及逐文件哈希校验；F103C8 和 F407ZG 的 HAL 与 HAL + FreeRTOS 模板各编译一次，生成 ELF/BIN/HEX。此验证不代表其余型号已逐一编译，也不代表实板下载或调试已验收。
 
 文件 SHA-256 见 [SHA256SUMS.txt](SHA256SUMS.txt)。第三方来源与许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 及各包内的许可证和源码声明。目录公开并不改变第三方文件原有许可。

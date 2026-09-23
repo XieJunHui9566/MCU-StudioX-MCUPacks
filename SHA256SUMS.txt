@@ -15,3 +15,5 @@ ef2502929c310b5da7661d8e776214ff71b4f8b84d7d883dc5b3f31b0e2742a2  Puya/puya.py32
 be19ae94e7e81758095dd0955f8e6d5c59080df66b40b9b903d5b1121baff8e3  Puya/puya.py32f410-0.1.0.mcupack
 3c3640e67ef2f195cc7cd1497a919ac72e1c4f7b475ab4a8ac87bfac3d40956e  Puya/puya.py32f420-0.1.0.mcupack
 912841e7e0b295ebc95b74be8cdd962c88f23801603379b3ca43ca7a9f354ff0  Raspberry-Pi/raspberrypi.rp2350-0.1.0.mcupack
+f3f38e722ceaeb5f7694c78eae901ce25ae8b971ef1aa28f321ee29f33d59b2f  STMicroelectronics/studiox.stm32f103-0.1.2.mcupack
+9af4d112fbb0d0e21043cd51e3756bb012da5b92d54a48eff263d620c02588b2  STMicroelectronics/studiox.stm32f407-0.1.2.mcupack
