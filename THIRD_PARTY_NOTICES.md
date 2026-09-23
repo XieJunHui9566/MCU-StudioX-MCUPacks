@@ -1,6 +1,6 @@
 # 第三方来源与许可
 
-本仓库是器件包的分发目录，不对包内所有源码统一授予一种开源许可。使用或再分发某个包时，应遵守该包中原有的版权声明和许可。以下列出当前 19 个包的主要来源；逐文件来源及哈希见包内 `provenance.json`。
+本仓库是器件包的分发目录，不对包内所有源码统一授予一种开源许可。使用或再分发某个包时，应遵守该包中原有的版权声明和许可。以下列出当前 40 个包的主要来源；逐文件来源及哈希见包内 `provenance.json`。
 
 ## Puya：PY32F0、PY32F403、PY32F410、PY32F420
 
@@ -12,8 +12,8 @@ PY32F0 包内保留 `licenses/Puya-BSD-3-Clause.txt`；含 Apache-2.0 CMSIS 文�
 
 该包的 SDK 来源是 [Raspberry Pi Pico SDK 2.2.0](https://github.com/raspberrypi/pico-sdk/tree/2.2.0)。包内 `sdk/LICENSE.TXT` 保留 SDK 的 BSD-3-Clause 许可。`sdk/src/rp2_common/pico_printf/` 下的第三方 printf 源文件另在文件头保留完整 MIT 许可和作者声明。
 
-## STMicroelectronics：STM32F103、STM32F407
+## STMicroelectronics：STM32F1、STM32F4
 
-两个 0.1.2 包的 CMSIS/CMSIS Device、HAL 与启动文件分别来自 ST 官方 [STM32CubeF1 v1.8.7](https://github.com/STMicroelectronics/STM32CubeF1/tree/v1.8.7) 和 [STM32CubeF4 v1.28.3](https://github.com/STMicroelectronics/STM32CubeF4/tree/v1.28.3)；FreeRTOS 10.3.1 来自后者。包内 `licenses/` 保留 CMSIS/CMSIS Device 的 Apache-2.0、ST HAL 的 BSD-3-Clause、FreeRTOS 的 MIT 许可及 STM32Cube 软件清单，源码原版权声明未改。`provenance.json` 列有收入包中的每个 SDK 文件 SHA-256。包内没有 SPL 或 Keil DFP 的器件头文件，且不得把仓库自身许可证套用到这些第三方组件。
+23 个 0.1.2 包的 CMSIS/CMSIS Device、HAL 与启动文件分别来自 ST 官方 [STM32CubeF1 v1.8.7](https://github.com/STMicroelectronics/STM32CubeF1/tree/v1.8.7) 和 [STM32CubeF4 v1.28.3](https://github.com/STMicroelectronics/STM32CubeF4/tree/v1.28.3)；FreeRTOS 10.3.1 来自后者。包内 `licenses/` 保留 CMSIS/CMSIS Device 的 Apache-2.0、ST HAL 的 BSD-3-Clause、FreeRTOS 的 MIT 许可及 STM32Cube 软件清单，源码原版权声明未改。`provenance.json` 列有收入包中的每个 SDK 文件 SHA-256。包内没有 SPL 或 Keil DFP 的器件头文件，也没有工具链二进制；请勿把仓库自身许可证套用到这些第三方组件。
 
 这些第三方商标只用于说明器件兼容性，不表示相应厂商为本仓库背书。
