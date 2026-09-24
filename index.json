@@ -1,0 +1,285 @@
+{
+  "formatVersion": 1,
+  "packs": [
+    {
+      "path": "Puya/puya.py32f002a-0.1.1.mcupack",
+      "id": "puya.py32f002a",
+      "version": "0.1.1",
+      "sha256": "d57be9461d0e8a5818e3f965561d8c00b869795eb105c0e3f1c2ce66226d3163",
+      "size": 1085190
+    },
+    {
+      "path": "Puya/puya.py32f002b-0.1.1.mcupack",
+      "id": "puya.py32f002b",
+      "version": "0.1.1",
+      "sha256": "47b2e3a3477db0ffc0091ea6c9f0c4888659a5bccb248cd32550d004fcd3e4b4",
+      "size": 706098
+    },
+    {
+      "path": "Puya/puya.py32f003-0.1.1.mcupack",
+      "id": "puya.py32f003",
+      "version": "0.1.1",
+      "sha256": "af917e8fbed972e550f4e843c9688927f5d40abe930d36c9663999b6400e9e44",
+      "size": 1094965
+    },
+    {
+      "path": "Puya/puya.py32f005-0.1.2.mcupack",
+      "id": "puya.py32f005",
+      "version": "0.1.2",
+      "sha256": "6b63f9b4787ccc6abed1805f5f28f0532cfcabe362d76f655a28569dabe1748d",
+      "size": 725161
+    },
+    {
+      "path": "Puya/puya.py32f030-0.1.1.mcupack",
+      "id": "puya.py32f030",
+      "version": "0.1.1",
+      "sha256": "0ff9d3399a1f7f393112277a23c69008f93e81c1a5d616e52f908bfae436c046",
+      "size": 1098103
+    },
+    {
+      "path": "Puya/puya.py32f031-0.1.1.mcupack",
+      "id": "puya.py32f031",
+      "version": "0.1.1",
+      "sha256": "ac766f0496b05d9ec2f9da4610370cd4e0a0ed06725c6a86abe7cd4d061b1733",
+      "size": 1014439
+    },
+    {
+      "path": "Puya/puya.py32f032-0.1.1.mcupack",
+      "id": "puya.py32f032",
+      "version": "0.1.1",
+      "sha256": "460991ea78b3ec8daa26860e64fa77e909ee058481673a39147d28c417488d85",
+      "size": 985021
+    },
+    {
+      "path": "Puya/puya.py32f033-0.1.1.mcupack",
+      "id": "puya.py32f033",
+      "version": "0.1.1",
+      "sha256": "f663056fb6192e5a7b5600764653c6f4c4cefcd569cfb6b6581023bdde37ccd2",
+      "size": 975083
+    },
+    {
+      "path": "Puya/puya.py32f040-0.1.2.mcupack",
+      "id": "puya.py32f040",
+      "version": "0.1.2",
+      "sha256": "c42aaf99e03af33567eb2e8308396d0cec2a2a16d71e359c15ebf12835805f22",
+      "size": 1095335
+    },
+    {
+      "path": "Puya/puya.py32f071-0.1.2.mcupack",
+      "id": "puya.py32f071",
+      "version": "0.1.2",
+      "sha256": "044ca7aff962a2bca2a5f3ce636687f1bb8ca8fe62babedb86bcd0d38e961609",
+      "size": 1155723
+    },
+    {
+      "path": "Puya/puya.py32f072-0.1.2.mcupack",
+      "id": "puya.py32f072",
+      "version": "0.1.2",
+      "sha256": "e7e766fef6ef911c8a7e3ca6c7988812bcaf500c9e5560ed2afae922ea9c586c",
+      "size": 1193433
+    },
+    {
+      "path": "Puya/puya.py32f090-0.1.1.mcupack",
+      "id": "puya.py32f090",
+      "version": "0.1.1",
+      "sha256": "b86a97f233ccb99f122223c0b3f0687285b93bc4dea357eb4e257b9d310bbd1c",
+      "size": 1240298
+    },
+    {
+      "path": "Puya/puya.py32f092-0.1.1.mcupack",
+      "id": "puya.py32f092",
+      "version": "0.1.1",
+      "sha256": "ef2502929c310b5da7661d8e776214ff71b4f8b84d7d883dc5b3f31b0e2742a2",
+      "size": 1291240
+    },
+    {
+      "path": "Puya/puya.py32f403-0.1.0.mcupack",
+      "id": "puya.py32f403",
+      "version": "0.1.0",
+      "sha256": "6e84e8796a0b7ddea8a18d8bf149460ee6c0d983a3b5325e80231e7b1b0321b0",
+      "size": 1182898
+    },
+    {
+      "path": "Puya/puya.py32f410-0.1.0.mcupack",
+      "id": "puya.py32f410",
+      "version": "0.1.0",
+      "sha256": "be19ae94e7e81758095dd0955f8e6d5c59080df66b40b9b903d5b1121baff8e3",
+      "size": 1277216
+    },
+    {
+      "path": "Puya/puya.py32f420-0.1.0.mcupack",
+      "id": "puya.py32f420",
+      "version": "0.1.0",
+      "sha256": "3c3640e67ef2f195cc7cd1497a919ac72e1c4f7b475ab4a8ac87bfac3d40956e",
+      "size": 1094360
+    },
+    {
+      "path": "Raspberry-Pi/raspberrypi.rp2350-0.1.0.mcupack",
+      "id": "raspberrypi.rp2350",
+      "version": "0.1.0",
+      "sha256": "912841e7e0b295ebc95b74be8cdd962c88f23801603379b3ca43ca7a9f354ff0",
+      "size": 1076867
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f100-0.1.2.mcupack",
+      "id": "studiox.stm32f100",
+      "version": "0.1.2",
+      "sha256": "46c7662685038be505dd18ab47c54b080653101d5de916217623b2f5f3cc3647",
+      "size": 2451803
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f101-0.1.2.mcupack",
+      "id": "studiox.stm32f101",
+      "version": "0.1.2",
+      "sha256": "322c530df4fc8ce30b59576cd7e88038d1c94e323d64a98e3e9e678e8246ae6a",
+      "size": 2522913
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f102-0.1.2.mcupack",
+      "id": "studiox.stm32f102",
+      "version": "0.1.2",
+      "sha256": "243d0787eb3892a46ba0ce11adaaf9932db465e492e91f825664f4630feb797c",
+      "size": 2379564
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f103-0.1.2.mcupack",
+      "id": "studiox.stm32f103",
+      "version": "0.1.2",
+      "sha256": "f3f38e722ceaeb5f7694c78eae901ce25ae8b971ef1aa28f321ee29f33d59b2f",
+      "size": 2523262
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f105-0.1.2.mcupack",
+      "id": "studiox.stm32f105",
+      "version": "0.1.2",
+      "sha256": "3958a825d6146bf1600afcb4dff76a4027c124761b027bc128b391ebcb4f5932",
+      "size": 2364289
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f107-0.1.2.mcupack",
+      "id": "studiox.stm32f107",
+      "version": "0.1.2",
+      "sha256": "1ba2537ccc1c1e752470c0e4f049bc91b6749e9e0f68b292ac8410f611e2e7bd",
+      "size": 2351128
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f401-0.1.2.mcupack",
+      "id": "studiox.stm32f401",
+      "version": "0.1.2",
+      "sha256": "46cb5e3f611843c6ce17ced820dee837d06ee79bc0ab0293b5a9dff256fd1d07",
+      "size": 4883366
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f405-0.1.2.mcupack",
+      "id": "studiox.stm32f405",
+      "version": "0.1.2",
+      "sha256": "317a8633744ff428c8da417deb4e7e0e91db6528317b6b2e34f421286a3d3eeb",
+      "size": 4829859
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f407-0.1.2.mcupack",
+      "id": "studiox.stm32f407",
+      "version": "0.1.2",
+      "sha256": "9af4d112fbb0d0e21043cd51e3756bb012da5b92d54a48eff263d620c02588b2",
+      "size": 4837212
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f410-0.1.2.mcupack",
+      "id": "studiox.stm32f410",
+      "version": "0.1.2",
+      "sha256": "de3f5c348352753cba585a5970eb59a6fe778b4d65c9bb3ea23167b2e9911120",
+      "size": 4841680
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f411-0.1.2.mcupack",
+      "id": "studiox.stm32f411",
+      "version": "0.1.2",
+      "sha256": "769481a0f13c7e57c2051e17d2cd03fbf126448987e376ba63d69047c42187d1",
+      "size": 4835723
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f412-0.1.2.mcupack",
+      "id": "studiox.stm32f412",
+      "version": "0.1.2",
+      "sha256": "4b8e6e8e8705c312ea8080d847d096a507b05f353ab5d500389951998184afe9",
+      "size": 4860645
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f413-0.1.2.mcupack",
+      "id": "studiox.stm32f413",
+      "version": "0.1.2",
+      "sha256": "0e36b32e5d69411a0df07c402fbce65f410f2ba5f186fd4204f27c9ec7192cce",
+      "size": 4864845
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f415-0.1.2.mcupack",
+      "id": "studiox.stm32f415",
+      "version": "0.1.2",
+      "sha256": "3787324eea8ac8208fefd084d16436f37dbb03d46b16dd83d31b843c73e15d61",
+      "size": 4821825
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f417-0.1.2.mcupack",
+      "id": "studiox.stm32f417",
+      "version": "0.1.2",
+      "sha256": "5f6d9d8833bc0f7c578c3e8e0c6c17d968a94fefe42d01747031ae9cd42f87ec",
+      "size": 4837227
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f423-0.1.2.mcupack",
+      "id": "studiox.stm32f423",
+      "version": "0.1.2",
+      "sha256": "4b0a95dceac4174141563043939d4c68c2e77083a7270ed366c96daeaeaf24f3",
+      "size": 4828388
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f427-0.1.2.mcupack",
+      "id": "studiox.stm32f427",
+      "version": "0.1.2",
+      "sha256": "fe30f2c951d6fd440dccfb69a1086f3248946afe38966c96bb643f68a0460b9a",
+      "size": 4852033
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f429-0.1.2.mcupack",
+      "id": "studiox.stm32f429",
+      "version": "0.1.2",
+      "sha256": "e0d94b2530382564f50610eb390b181ebb2b7b496d2071ab43a2f85dbf181eae",
+      "size": 4920392
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f437-0.1.2.mcupack",
+      "id": "studiox.stm32f437",
+      "version": "0.1.2",
+      "sha256": "a9e8ff587b9a9a86e1d3ba7b4f8a3c790cb05f077ccbebc79adb5fb374f8afaf",
+      "size": 4844752
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f439-0.1.2.mcupack",
+      "id": "studiox.stm32f439",
+      "version": "0.1.2",
+      "sha256": "79de486b9963757ea6ae7c8a8141b3dddbad3bb38bfe7885d41f9164da3d28d5",
+      "size": 4873877
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f446-0.1.2.mcupack",
+      "id": "studiox.stm32f446",
+      "version": "0.1.2",
+      "sha256": "344852e158a49f0f2f20bde0a8062615d566b50693efdd74b96e21a7da9f82b2",
+      "size": 4850673
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f469-0.1.2.mcupack",
+      "id": "studiox.stm32f469",
+      "version": "0.1.2",
+      "sha256": "7615779e0ce97f3672d103030762d0d359975d3186b2ff7f999bbdc83b1d9c14",
+      "size": 4925384
+    },
+    {
+      "path": "STMicroelectronics/studiox.stm32f479-0.1.2.mcupack",
+      "id": "studiox.stm32f479",
+      "version": "0.1.2",
+      "sha256": "00d313a936a7b68e9fbae158232ec7bda217be966e328c3327294c59478dde54",
+      "size": 4881003
+    }
+  ]
+}

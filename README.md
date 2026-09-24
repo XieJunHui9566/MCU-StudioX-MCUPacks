@@ -53,4 +53,10 @@ F005/F040/F071/F072 的 0.1.2 版与 F031/F032/F033/F090/F092 的 0.1.1 版仅�
 
 STM32 的 23 个 HAL-only 包共覆盖 244 个基础型号，只含来自 ST 官方 STM32CubeF1/F4 的 CMSIS、HAL、启动文件及 FreeRTOS 10.3.1（FreeRTOS 来自 STM32CubeF4），不含 SPL、Keil DFP 源文件或工具链二进制。23 包均完成 StudioX 完整导入及逐文件哈希校验；244 个型号的 Flash/RAM/CCM 链接配置、启动文件与模板引用通过静态检查。新增 21 个子系列按 HAL 宏、启动文件和时钟配置选取代表型号，并覆盖最小 RAM 与最大 Flash 边界，两种模板共 106 组真实编译通过；F103C8 和 F407ZG 两模板另有 4 组真实编译通过，合计 110 组，均生成 ELF/BIN/HEX。此验证不代表全部型号逐一编译，也不代表实板下载或调试已验收。
 
+## IDE 在线同步
+
+IDE 可以从本仓库的 [index.json](index.json) 获取公开器件包目录，比较本地已安装的包，只下载新增或更新的 `.mcupack`，校验 SHA-256 后再自动导入。索引的 `formatVersion` 表示目录格式；每个 `packs` 条目包含仓库相对路径 `path`、包标识 `id`、版本 `version`、文件校验值 `sha256` 和字节数 `size`。`id`、`version` 取自包内的 `manifest.json`，校验值与 [SHA256SUMS.txt](SHA256SUMS.txt) 一致。下载与索引应固定在同一仓库提交上，避免同步期间分支更新造成版本不一致。
+
+在线目录只收录已完成来源及再分发许可核查的器件包；其他本地包不会因 IDE 同步而上传到此仓库。SHA-256 用于检查下载文件的完整性，包内源码仍遵循各自的第三方许可。
+
 文件 SHA-256 见 [SHA256SUMS.txt](SHA256SUMS.txt)。第三方来源与许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 及各包内的许可证和源码声明。目录公开并不改变第三方文件原有许可。
