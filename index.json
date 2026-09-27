@@ -2,6 +2,146 @@
   "formatVersion": 1,
   "packs": [
     {
+      "path": "Espressif/espressif.esp32-wroom-32-0.1.1.mcupack",
+      "id": "espressif.esp32-wroom-32",
+      "version": "0.1.1",
+      "sha256": "ff8ded9c0a06a0bdd2802b4fbd72b010704322dfadb2f0a62b6cf9ce7d286aad",
+      "size": 22020
+    },
+    {
+      "path": "Espressif/espressif.esp32c3-0.1.1.mcupack",
+      "id": "espressif.esp32c3",
+      "version": "0.1.1",
+      "sha256": "d68b2f505c70e9d1da98ea9d3fab690a7f306015942d8cf9754eb8cd32e11d11",
+      "size": 22021
+    },
+    {
+      "path": "Espressif/espressif.esp32c5-0.1.1.mcupack",
+      "id": "espressif.esp32c5",
+      "version": "0.1.1",
+      "sha256": "a096d2028eb0f0cf6597c249b69538ee5a8fcb8c2592ad1486b34c02e2c9f719",
+      "size": 22021
+    },
+    {
+      "path": "Espressif/espressif.esp32c6-0.1.1.mcupack",
+      "id": "espressif.esp32c6",
+      "version": "0.1.1",
+      "sha256": "9fe598dd8ea990954840db66903fb86d9c4b5f02052ce6a859dc388ba0f1ab3c",
+      "size": 22023
+    },
+    {
+      "path": "Espressif/espressif.esp32p4-0.1.1.mcupack",
+      "id": "espressif.esp32p4",
+      "version": "0.1.1",
+      "sha256": "dce1f0d1fb388ab7429eb9ad0cd5bbd1931f154bfd83d535f658c4fceed80b8d",
+      "size": 22023
+    },
+    {
+      "path": "Espressif/espressif.esp32s3-0.1.1.mcupack",
+      "id": "espressif.esp32s3",
+      "version": "0.1.1",
+      "sha256": "3bcc72c4de4727ff0448c003db6d5fc86f56249162a21f0ecafbca7cce5d3f6d",
+      "size": 22029
+    },
+    {
+      "path": "Espressif/espressif.esp8266-0.1.0.mcupack",
+      "id": "espressif.esp8266",
+      "version": "0.1.0",
+      "sha256": "e3797925783d28f971bef16ae5046f6a824e63e958321ff55b122a9d92e1b191",
+      "size": 3739
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32c10x-0.1.0.mcupack",
+      "id": "gigadevice.gd32c10x",
+      "version": "0.1.0",
+      "sha256": "1a9bc1834c0682de0ad7836eab5046f03274329837e8785e99913084a8ce8dab",
+      "size": 246967
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32e10x-0.1.0.mcupack",
+      "id": "gigadevice.gd32e10x",
+      "version": "0.1.0",
+      "sha256": "486d07c2fb6a79ba2443711b17cdbd44e3b346b22420dac896071c4939058bff",
+      "size": 228122
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32e23x-0.1.0.mcupack",
+      "id": "gigadevice.gd32e23x",
+      "version": "0.1.0",
+      "sha256": "518bdc58d8617b2d0ef8a7fe8e8e4f8ba2b2ec0df4bc8402dd432001c6c1a3fa",
+      "size": 221999
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32e50x-0.1.0.mcupack",
+      "id": "gigadevice.gd32e50x",
+      "version": "0.1.0",
+      "sha256": "9d1f9410001e906110655a21348d15fd92803b97ca0eec5398dfc6e674519513",
+      "size": 583151
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32f10x-0.1.0.mcupack",
+      "id": "gigadevice.gd32f10x",
+      "version": "0.1.0",
+      "sha256": "f75cb4c67813c27f225c669ba243aaf77f6bbbdcd5e9eef80da8386180e3b463",
+      "size": 367668
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32f1x0-0.1.0.mcupack",
+      "id": "gigadevice.gd32f1x0",
+      "version": "0.1.0",
+      "sha256": "91fcc37720e205f37adcb74eba4eea03ac7212a07cc95b5ea2827a4bc1628e0f",
+      "size": 261398
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32f20x-0.1.0.mcupack",
+      "id": "gigadevice.gd32f20x",
+      "version": "0.1.0",
+      "sha256": "d98357086fa888d61a02b4fa3f292f8909beea5a4e4e2fab28e61bf1f94f3132",
+      "size": 360601
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32f30x-0.1.1.mcupack",
+      "id": "gigadevice.gd32f30x",
+      "version": "0.1.1",
+      "sha256": "8180afb26769c0829e0d1adf86c1a8e656297787a10e3931f850d5f76c34339a",
+      "size": 344959
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32f3x0-0.1.1.mcupack",
+      "id": "gigadevice.gd32f3x0",
+      "version": "0.1.1",
+      "sha256": "8cb8581ff05fa29e65b8f3eaa2eae9827d473b24f269cd38f4adb7129d38884a",
+      "size": 273767
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32f403-0.1.1.mcupack",
+      "id": "gigadevice.gd32f403",
+      "version": "0.1.1",
+      "sha256": "188642d4903bc621c40d01731a0b3fe962fa2afa27e4e33c025759470c4b3479",
+      "size": 268609
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32f4xx-0.1.1.mcupack",
+      "id": "gigadevice.gd32f4xx",
+      "version": "0.1.1",
+      "sha256": "985722f027540976106dbeb584f11598d42188908b77dac130baf562e73e4e94",
+      "size": 420334
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32l23x-0.1.0.mcupack",
+      "id": "gigadevice.gd32l23x",
+      "version": "0.1.0",
+      "sha256": "af04c2042b30bdab3f939e74b9c42b289fab827dff5a31f436b410034fb290a0",
+      "size": 355326
+    },
+    {
+      "path": "GigaDevice/gigadevice.gd32vf103-0.1.0.mcupack",
+      "id": "gigadevice.gd32vf103",
+      "version": "0.1.0",
+      "sha256": "858d104397b3b074dba9f15477defa8def5b4bdf6d802dcccab0c48560c3bf10",
+      "size": 219674
+    },
+    {
       "path": "Puya/puya.py32f002a-0.1.1.mcupack",
       "id": "puya.py32f002a",
       "version": "0.1.1",
@@ -119,6 +259,13 @@
       "version": "0.1.0",
       "sha256": "912841e7e0b295ebc95b74be8cdd962c88f23801603379b3ca43ca7a9f354ff0",
       "size": 1076867
+    },
+    {
+      "path": "STC/stc.stc8-0.1.0.mcupack",
+      "id": "stc.stc8",
+      "version": "0.1.0",
+      "sha256": "6699a1c7002ad48b5cc71b6c1225a7346781495f63027ad3ea39957b751ff03f",
+      "size": 23296
     },
     {
       "path": "STMicroelectronics/studiox.stm32f100-0.1.2.mcupack",
