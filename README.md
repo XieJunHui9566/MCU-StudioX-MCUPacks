@@ -1,8 +1,10 @@
 # MCU StudioX 器件包
 
-这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。当前目录收录 16 个普冉 PY32 包、1 个 Raspberry Pi RP2350 包、23 个 STM32 HAL 包、13 个 GD32 包、7 个 Espressif 包及 1 个 STC 包，共 **61 个**，均采用 StudioX Pack **格式 1**。本目录与 MCU StudioX **0.2.5** 同期更新；器件包保留各自独立版本号。每个包 ID 只保留当前可公开的最新版本。
+2026-09-29 配合 IDE 0.2.5.2 更新：新增 RP2040，RP2350 升级为 0.2.0，两者保留 C SDK 并新增 MicroPython。当前公开目录共 62 个包；包版本独立于 IDE 版本。
 
-本次新增 21 个公开包。已有 STM32 0.1.2 与补齐 CMSIS 许可的 PY32 新版继续保留，未被安装包中的较旧版本回退。当前分支原有 40 个包均为各自最新公开版，没有需要删除的同 ID 旧版本。[本次更新与未公开范围](UPDATE-0.2.5.md)列出具体差异。
+这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。当前目录收录 16 个普冉 PY32 包、2 个 Raspberry Pi RP2040 / RP2350 包、23 个 STM32 HAL 包、13 个 GD32 包、7 个 Espressif 包及 1 个 STC 包，共 **62 个**，均采用 StudioX Pack **格式 1**。本目录与 MCU StudioX **0.2.5.2** 同期更新；器件包保留各自独立版本号。每个包 ID 只保留当前可公开的最新版本。
+
+本次新增 RP2040 并更新 RP2350，两包均为 0.2.0，提供 C SDK 与 MicroPython 模板。已有 STM32 HAL、Puya 和 GD32 的公开修订保持不变；旧 RP2350 文件由新版替代，Git 历史保留。详见[本次更新](UPDATE-0.2.5.2.md)及[第三方来源](THIRD_PARTY_NOTICES.md)。
 
 | 品牌 | 器件包 | 版本 | 收录范围 | 验证状态 |
 | --- | --- | --- | --- | --- |
@@ -22,7 +24,8 @@
 | 普冉 Puya | [PY32F403](Puya/puya.py32f403-0.1.0.mcupack) | 0.1.0 | 11 个完整料号 | 工程创建和代表型号编译通过；尚无实板测试 |
 | 普冉 Puya | [PY32F410](Puya/puya.py32f410-0.1.0.mcupack) | 0.1.0 | 6 个完整料号 | 工程创建和代表型号编译通过；尚无实板测试 |
 | 普冉 Puya | [PY32F420](Puya/puya.py32f420-0.1.0.mcupack) | 0.1.0 | 2 个完整料号 | 工程创建和代表型号编译通过；尚无实板测试 |
-| Raspberry Pi | [RP2350](Raspberry-Pi/raspberrypi.rp2350-0.1.0.mcupack) | 0.1.0 | RP2350A、Pico 2 / 相同配置的兼容板 | C 工程编译及一块 Pico 2 兼容板的下载、调试已验证 |
+| Raspberry Pi | [RP2040](Raspberry-Pi/raspberrypi.rp2040-0.2.0.mcupack) | 0.2.0 | RP2040；C SDK、MicroPython | C 工程真实编译、MicroPython 离线检查通过；尚无 RP2040 实板验收 |
+| Raspberry Pi | [RP2350](Raspberry-Pi/raspberrypi.rp2350-0.2.0.mcupack) | 0.2.0 | RP2350A；C SDK、MicroPython | C 编译和既有兼容板验证；MicroPython 工程与编辑、传输离线检查通过 |
 | STMicroelectronics | [STM32F100](STMicroelectronics/studiox.stm32f100-0.1.2.mcupack) | 0.1.2 | 19 个基础型号；HAL、HAL + FreeRTOS | 代表组合两模板编译通过；尚无实板验收 |
 | STMicroelectronics | [STM32F101](STMicroelectronics/studiox.stm32f101-0.1.2.mcupack) | 0.1.2 | 29 个基础型号；HAL、HAL + FreeRTOS | 代表组合两模板编译通过；尚无实板验收 |
 | STMicroelectronics | [STM32F102](STMicroelectronics/studiox.stm32f102-0.1.2.mcupack) | 0.1.2 | 8 个基础型号；HAL、HAL + FreeRTOS | 代表组合两模板编译通过；尚无实板验收 |
@@ -70,7 +73,7 @@
 
 在 MCU StudioX 的器件包管理界面导入所需的 `.mcupack`，再按目标芯片或板卡新建工程。器件包不包含编译器或调试器可执行文件，构建还需 IDE 配套工具链。每个包内的 `manifest.json` 列出具体型号、模板和工具要求，`README.md` 说明使用范围，`provenance.json` 或 `vendor/provenance.json` 记录 SDK 来源与校验信息。Espressif 包引用 IDE 的共享 SDK；包本身不含完整 ESP-IDF/ESP8266 SDK。
 
-PY32 共有 27 个 F0 容量型号和 19 个 F4 完整料号。新增 13 个 F0 包已通过项目校验器的 **81 次工程创建和 81 次真实编译**，没有访问硬件。PY32 的实板下载和调试尚未验收，这些包没有声明下载或调试目标。RP2350 包针对外部 12 MHz 晶振、4 MiB QSPI Flash 的 RP2350A 板型；实板结果不能推广到其他 RP2350 板型、RISC-V 内核或 Pico 2 W。
+PY32 共有 27 个 F0 容量型号和 19 个 F4 完整料号。新增 13 个 F0 包已通过项目校验器的 **81 次工程创建和 81 次真实编译**，没有访问硬件。PY32 的实板下载和调试尚未验收，这些包没有声明下载或调试目标。RP2040 / RP2350 包针对外部 12 MHz 晶振、4 MiB QSPI Flash 的 RP2350A 板型；实板结果不能推广到其他 RP2350 板型、RISC-V 内核或 Pico 2 W。
 
 F005/F040/F071/F072 的 0.1.2 版与 F031/F032/F033/F090/F092 的 0.1.1 版仅补入 Arm CMSIS 所需的 Apache-2.0 许可正文并更新包版本和校验索引；原厂 SDK 源文件、器件参数与构建配置未改动。版本号提升使已导入旧版的用户可并存安装。
 

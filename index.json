@@ -254,11 +254,18 @@
       "size": 1094360
     },
     {
-      "path": "Raspberry-Pi/raspberrypi.rp2350-0.1.0.mcupack",
+      "path": "Raspberry-Pi/raspberrypi.rp2040-0.2.0.mcupack",
+      "id": "raspberrypi.rp2040",
+      "version": "0.2.0",
+      "sha256": "f58a150f61327ecc705fd2ed87b3c8b3cf31d84b42a790438539f6926fa6ccdb",
+      "size": 771892
+    },
+    {
+      "path": "Raspberry-Pi/raspberrypi.rp2350-0.2.0.mcupack",
       "id": "raspberrypi.rp2350",
-      "version": "0.1.0",
-      "sha256": "912841e7e0b295ebc95b74be8cdd962c88f23801603379b3ca43ca7a9f354ff0",
-      "size": 1076867
+      "version": "0.2.0",
+      "sha256": "a55a64796551bc38138df7d51bcd1b835d01ada3184e8e6b62934b55b252a917",
+      "size": 1080280
     },
     {
       "path": "STC/stc.stc8-0.1.0.mcupack",
