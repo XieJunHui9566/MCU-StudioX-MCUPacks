@@ -1,6 +1,6 @@
 # 第三方来源与许可
 
-本仓库是器件包的分发目录，不对包内所有源码统一授予一种开源许可。使用或再分发某个包时，应遵守该包中原有的版权声明和许可。以下列出当前 62 个包的主要来源；逐文件来源及哈希见包内 `provenance.json`。
+本仓库是器件包的分发目录，不对包内所有源码统一授予一种开源许可。使用或再分发某个包时，应遵守该包中原有的版权声明和许可。以下列出原有 62 包及本轮新增 272 包的主要来源；逐文件来源及哈希见包内 `provenance.json`。
 
 ## Puya：PY32F0、PY32F403、PY32F410、PY32F420
 
@@ -58,3 +58,23 @@ STC 包中的 SFR 名称和地址来自厂商 AiCube 头文件，采用 StudioX 
 ## 本次未公开的本地包
 
 WCH CH32V203、CH32V307、CH592、CH595 的当前 SDK 仅保留厂商版权及仅用于 WCH 芯片的声明，缺少已核实的再分发许可。FreeRTOS 的 MIT 许可只覆盖 FreeRTOS 文件，不能作为 WCH SDK 的授权。AGM 临时包缺少原 SDK 再分发许可。这些本地包没有上传到本仓库。[UPDATE-0.2.5.md](UPDATE-0.2.5.md)列出准确范围。
+
+
+## 2026-09-30 新增 ARM32 包
+
+固定的 DFP 版本、SDK 提交、URL 和 SHA-256 见 [sources.lock.json](validation/arm32-2026-09-30/sources.lock.json)，补充许可的固定提交和哈希见 [publication-policy.json](validation/arm32-2026-09-30/publication-policy.json)。每包保留原始来源、许可证、逐文件哈希及转换前的启动文件。官方商标只表示目标兼容性，这些包由 StudioX 整理，不表示厂商认可。
+
+| 来源 | 此次公开内容与条款依据 |
+| --- | --- |
+| STMicroelectronics | 126 个新增子系列包使用 ST 官方 CMSIS Device 仓库；DFP 只提供器件描述数据，CMSIS/启动文件保留其原 Apache-2.0 / BSD 条款及 LICENSE.md。 |
+| ArteryTek | 29 包；厂商文件内明确允许为雅特力 MCU 开发而使用、复制、分发 BSP，保留用途条件、版权和免责声明。 |
+| Geehy | 18 包；补入相应 F0/F10/F4 官方 SDK 的 Geehy Semiconductor Software License Agreement 1.3 全文。允许按第 4 节保留声明后分发源码及修改版本；限制用于相应极海器件，不重新授权为 Apache/BSD/MIT。转换文件带 StudioX 修改说明和日期。 |
+| HDSC | 7 包；保留每个文件中仅面向华大器件的用途限制、允许在该用途下复制整体或部分的条款及完整版权/免责声明。 |
+| MindMotion | 5 包；保留 DFP 的 Apache-2.0 许可和原文件版权。 |
+| NSING | 11 包；所选文件含允许源码/二进制再分发的条款，保留条件和免责声明。N32G003/N32G430 的不同限制不套用到这 11 包，也不以这些许可覆盖那两个受限包。 |
+| Nuvoton | 44 包；保留文件中的 Apache-2.0 声明以及所需完整正文。M0A21/NDA102 暂缺覆盖所选文件的明确条款，未上传。 |
+| Nordic Semiconductor | 12 包；保留原文件声明和 DFP 附带的 BSD 许可。本次基础包不包含 SoftDevice 无线固件或完整 BLE 协议栈。 |
+| Microchip | SAMD21/SAMD51 两包；保留 DFP 的 Apache-2.0 许可、Arm CMSIS 许可和各文件原始声明。 |
+| NXP | 18 包；旧 LPC 包保留源文件内的 BSD/开发工具分发条款及 DFP 原许可。6 个 MCUXpresso 包内保留 Software Content Register：所选器件/驱动文件按其 BSD-3-Clause 声明分发，补入 NXP 官方 licenses/COPYING-BSD-3 全文；不将专有中间件授权推及其它组件。 |
+
+全部新包另保留 Arm CMSIS 6.3.0 所需的 Apache-2.0 正文。生成的复位/向量文件随包保留原始文件，新增日期和转换说明不替代其适用条款。编译验证并不证明拥有 SDK 再分发权，因此本轮特定受限/未明确授权的包没有公开；不将本地 330 包 ZIP 作为 GitHub 下载附件。

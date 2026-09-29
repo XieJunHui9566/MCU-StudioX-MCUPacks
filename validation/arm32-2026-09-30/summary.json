@@ -1,0 +1,14 @@
+{
+  "totalPublicPacks": 334,
+  "arm32Packs": 325,
+  "arm32DeviceEntries": 3453,
+  "newPacks": 272,
+  "newDevices": 2777,
+  "newCompiledModels": 891,
+  "unchangedExistingPacks": 62,
+  "excludedNewPacks": 4,
+  "hardwareAccessed": false,
+  "publicRevisionSmokeBuilds": 4,
+  "newPayloadsPreserved": 272,
+  "sourceCommit": "c6598068c014a6f49c1c91aa213a8aee3db73b0c"
+}

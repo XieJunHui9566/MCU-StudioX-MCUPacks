@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-30",
+  "revision": "0.1.1",
+  "licenses": [
+    {
+      "repository": "GeehySemi/APM32F0xx_SDK",
+      "commit": "cfc1fe826e1869133de86d4c6b298fc153e6bc32",
+      "url": "https://raw.githubusercontent.com/GeehySemi/APM32F0xx_SDK/cfc1fe826e1869133de86d4c6b298fc153e6bc32/GEEHY%20COPYRIGHT%20NOTICE.txt",
+      "file": "APM32F0xx_SDK-GEEHY-COPYRIGHT-NOTICE.txt",
+      "sha256": "fa1257711171c779015afe1a233bcc2f8b744ee0d0aec1f236c6264c1685ac1e",
+      "key": "geehy-f0"
+    },
+    {
+      "repository": "GeehySemi/APM32F4xx_SDK",
+      "commit": "c80908ab12d0deaa539ba4429f47b0a3f66065bb",
+      "url": "https://raw.githubusercontent.com/GeehySemi/APM32F4xx_SDK/c80908ab12d0deaa539ba4429f47b0a3f66065bb/GEEHY%20COPYRIGHT%20NOTICE.txt",
+      "file": "APM32F4xx_SDK-GEEHY-COPYRIGHT-NOTICE.txt",
+      "sha256": "34673e8edbc45c7dff8bda81e6df42045a0bb84b0ed904331dc3b59fb6b11845",
+      "key": "geehy-f4"
+    },
+    {
+      "repository": "GeehySemi/APM32F10x_SDK",
+      "commit": "cb084dd9ce994cc6fc449f692cdc78f34d7e2edb",
+      "url": "https://raw.githubusercontent.com/GeehySemi/APM32F10x_SDK/cb084dd9ce994cc6fc449f692cdc78f34d7e2edb/GEEHY%20COPYRIGHT%20NOTICE.txt",
+      "file": "APM32F10x_SDK-GEEHY-COPYRIGHT-NOTICE.txt",
+      "sha256": "34673e8edbc45c7dff8bda81e6df42045a0bb84b0ed904331dc3b59fb6b11845",
+      "key": "geehy-f1"
+    },
+    {
+      "repository": "nxp-mcuxpresso/legacy-mcux-sdk",
+      "commit": "8a289764d763ad06e0c3a05c885644ed98b970af",
+      "url": "https://raw.githubusercontent.com/nxp-mcuxpresso/legacy-mcux-sdk/8a289764d763ad06e0c3a05c885644ed98b970af/licenses/COPYING-BSD-3",
+      "file": "legacy-mcux-sdk-COPYING-BSD-3",
+      "sha256": "903d56aa5dd427d560106b22a196807bc49ed675ddedce3edaa0b8bb2881e9c2",
+      "key": "nxp-bsd"
+    }
+  ],
+  "excluded": {
+    "nsing.n32g003": "当前 SDK 的系统文件及头文件明确禁止未经许可的复制和分发；保留本地配方，未公开归档。",
+    "nsing.n32g430": "当前 SDK 的系统文件及头文件明确禁止未经许可的复制和分发；保留本地配方，未公开归档。",
+    "nuvoton.m0a21": "当前 DFP 系统文件只附版权声明，尚未取得覆盖所选文件的明确再分发条款；未公开归档。",
+    "nuvoton.nda102": "当前 DFP 系统文件只附版权声明，尚未取得覆盖所选文件的明确再分发条款；未公开归档。"
+  },
+  "nxpBsdSupplement": [
+    "nxp.lpc810",
+    "nxp.lpc812",
+    "nxp.lpc824",
+    "nxp.lpc845",
+    "nxp.mk64f12",
+    "nxp.mkl26z4"
+  ],
+  "vendorFolders": {
+    "ArteryTek": "ArteryTek",
+    "Geehy": "Geehy",
+    "HDSC": "HDSC",
+    "Microchip": "Microchip",
+    "MindMotion": "MindMotion",
+    "Nordic Semiconductor": "Nordic",
+    "NSING": "NSING",
+    "Nuvoton": "Nuvoton",
+    "NXP": "NXP",
+    "STMicroelectronics": "STMicroelectronics"
+  }
+}

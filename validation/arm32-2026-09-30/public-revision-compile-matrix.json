@@ -1,0 +1,50 @@
+[
+  {
+    "model": "geehy.apm32f103/APM32F103RC/cmsis",
+    "compiled": true,
+    "flashBytes": 262144,
+    "ramBytes": 65536,
+    "binaryBytes": 1072,
+    "hasOpenOcd": false,
+    "probes": 0,
+    "debugPlans": 0,
+    "status": "PASS",
+    "error": null
+  },
+  {
+    "model": "nxp.lpc810/LPC810M021FN8/cmsis",
+    "compiled": true,
+    "flashBytes": 4096,
+    "ramBytes": 992,
+    "binaryBytes": 1760,
+    "hasOpenOcd": false,
+    "probes": 0,
+    "debugPlans": 0,
+    "status": "PASS",
+    "error": null
+  },
+  {
+    "model": "hdsc.hc32f072/HC32F072PATA/cmsis",
+    "compiled": true,
+    "flashBytes": 131072,
+    "ramBytes": 16384,
+    "binaryBytes": 1132,
+    "hasOpenOcd": false,
+    "probes": 0,
+    "debugPlans": 0,
+    "status": "PASS",
+    "error": null
+  },
+  {
+    "model": "nuvoton.m030g/M029GGC0AE/cmsis",
+    "compiled": true,
+    "flashBytes": 32768,
+    "ramBytes": 2048,
+    "binaryBytes": 1516,
+    "hasOpenOcd": false,
+    "probes": 0,
+    "debugPlans": 0,
+    "status": "PASS",
+    "error": null
+  }
+]

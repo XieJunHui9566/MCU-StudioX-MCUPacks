@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "offline": true,
+  "hardwareAccessed": false,
+  "packages": 334,
+  "imported": 334,
+  "repeatSkipped": 334,
+  "archiveRequests": 334,
+  "failures": 0,
+  "method": "Installed IDE GitHubPackSyncService and PackRepository; local HTTP snapshot"
+}

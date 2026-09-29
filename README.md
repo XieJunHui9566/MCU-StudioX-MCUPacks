@@ -1,10 +1,10 @@
 # MCU StudioX 器件包
 
-2026-09-29 配合 IDE **0.2.5.3** 发布：公开目录继续保留现有 62 个包，包内容、版本及校验值均未改变。IDE 新增 OpenOCD 变量绘图和双语诊断，并完善编辑工作区与 Agent；详见 [0.2.5.3 配套说明](UPDATE-0.2.5.3.md)。包版本独立于 IDE 版本。
+2026-09-30：新增 **272 个 ARM32 器件包 / 2,777 个器件条目**。公开目录现有 **334 包**，其中 **325 个 ARM32 包 / 3,453 个器件条目**。原有 62 包内容、版本及校验值未改变；IDE 保持 **0.2.5.3**。详见 [本轮更新说明](UPDATE-ARM32-2026-09-30.md)、[新增包清单](ARM32-PACKS-2026-09-30.md) 和 [ARM32 整包下载](https://github.com/XieJunHui9566/MCU-StudioX-MCUPacks/releases/tag/arm32-2026-09-30)。
 
-这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。当前目录收录 16 个普冉 PY32 包、2 个 Raspberry Pi RP2040 / RP2350 包、23 个 STM32 HAL 包、13 个 GD32 包、7 个 Espressif 包及 1 个 STC 包，共 **62 个**，均采用 StudioX Pack **格式 1**。本目录与 MCU StudioX **0.2.5.2** 同期更新；器件包保留各自独立版本号。每个包 ID 只保留当前可公开的最新版本。
+这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。原有目录收录 16 个普冉 PY32 包、2 个 Raspberry Pi RP2040 / RP2350 包、23 个 STM32 HAL 包、13 个 GD32 包、7 个 Espressif 包及 1 个 STC 包，共 **62 个**；本轮另增 272 包，全部采用 StudioX Pack **格式 1**。器件包保留各自独立版本号。每个包 ID 只保留当前可公开的最新版本。
 
-本次新增 RP2040 并更新 RP2350，两包均为 0.2.0，提供 C SDK 与 MicroPython 模板。已有 STM32 HAL、Puya 和 GD32 的公开修订保持不变；旧 RP2350 文件由新版替代，Git 历史保留。详见[本次更新](UPDATE-0.2.5.2.md)及[第三方来源](THIRD_PARTY_NOTICES.md)。
+此前 0.2.5.2 配套更新新增 RP2040 并更新 RP2350，两包均为 0.2.0，提供 C SDK 与 MicroPython 模板。已有 STM32 HAL、Puya 和 GD32 的公开修订保持不变；旧 RP2350 文件由新版替代，Git 历史保留。详见[0.2.5.2 更新](UPDATE-0.2.5.2.md)及[第三方来源](THIRD_PARTY_NOTICES.md)。
 
 | 品牌 | 器件包 | 版本 | 收录范围 | 验证状态 |
 | --- | --- | --- | --- | --- |
