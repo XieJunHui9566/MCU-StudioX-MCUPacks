@@ -1,0 +1,147 @@
+{
+  "formatVersion": 1,
+  "sdkVersion": "5.5.5",
+  "upstreamCommit": "b774170ff46c393eeb5e495ea37936038d3f4f4f",
+  "filesSha256": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "tools/cmake/version.cmake": "9b8252f28c8a5a44c2fd2e1f362a22e54f554cb4574348f810693e52b32c2899",
+    "examples/get-started/hello_world/CMakeLists.txt": "49af6567ee0b9c381654ad42f7ea0c40fe61a8ca0d9421625faa01ca21603009",
+    "examples/get-started/hello_world/main/CMakeLists.txt": "116b04da44200b6ddeee8aed45c9fbfb5e487d727c7d29b028e79807e76137cc",
+    "examples/get-started/hello_world/main/hello_world_main.c": "b2d1c8573307e010d276d2d0df537f1fe752416f8422e267aa8b1661c1744595",
+    "examples/get-started/hello_world/README.md": "ff3d88ffac063e7e90e6cca9acaef101da29b2c22a60687b1af87b3d4cf8342b",
+    "examples/system/freertos/real_time_stats/CMakeLists.txt": "7b7faeec69813d608cd584568a714e336408b40e763972066bea49b4d9f486af",
+    "examples/system/freertos/real_time_stats/main/CMakeLists.txt": "00b7cc2a858a0498b52b8515f28512aecd33e93e23e6ae96f6708dfbb4480a63",
+    "examples/system/freertos/real_time_stats/main/real_time_stats_example_main.c": "e90ba48a308b9e5735de50e86776ae2b9731fac05ede5bd2a0ad9efef73ab29c",
+    "examples/system/freertos/real_time_stats/sdkconfig.defaults": "dd87b8ef92c63b2f067114fd906a08f24842d850b9819ea94d8ffb95b9f414a4",
+    "examples/system/freertos/real_time_stats/README.md": "dea0032817e5048153727f107eca5d95eefbe4e014bcd3553648c021093aba51",
+    "tools/idf_py_actions/constants.py": "6b4c726103bb16c3cc4fcb4f9bddd8b48c77b8975f4b1d9e0724a8d9e073ff47",
+    "components/soc/esp32/include/soc/soc_caps.h": "213208a6322596f9df668f558c8d1435546e30d84dcb988c19ce872793f7a364",
+    "components/soc/esp32s3/include/soc/soc_caps.h": "832796827709840fef9656bcb5711b952abd9d6923ffac729ec4526ae6cf4849",
+    "components/soc/esp32p4/include/soc/soc_caps.h": "4aba7eaad13804d97e6cf8ff4cfe965e4892438fab43eb1fc18193eb072ad651",
+    "components/soc/esp32c3/include/soc/soc_caps.h": "23dcfb0a95b159411a20bcec15e05fcf3a6208cebd8d14d96c7f4db45604b652",
+    "components/soc/esp32c5/include/soc/soc_caps.h": "2ac18d203f62687f5c363afe4768e22c8405495e6439bb305d8aedf4352db9c9",
+    "components/soc/esp32c6/include/soc/soc_caps.h": "fb55c0cbde7b51185566b144d60038ef576c7ba2d72cffaddfd4351ba046c875"
+  },
+  "examples": [
+    {
+      "id": "hello-world",
+      "examplePath": "examples/get-started/hello_world",
+      "entryFile": "main/hello_world_main.c",
+      "displayName": "官方 Hello World",
+      "description": "ESP-IDF 5.5.5 原始示例；显示芯片/Flash/堆信息并定期重启。"
+    },
+    {
+      "id": "freertos",
+      "examplePath": "examples/system/freertos/real_time_stats",
+      "entryFile": "main/real_time_stats_example_main.c",
+      "displayName": "官方 FreeRTOS 运行统计",
+      "description": "ESP-IDF 5.5.5 原始任务运行统计示例；保留官方调度代码及统计配置。"
+    }
+  ],
+  "upstreamTag": "v5.5.5",
+  "sourceFiles": {
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/LICENSE",
+      "originalSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "normalizedSha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "tools/cmake/version.cmake": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/tools/cmake/version.cmake",
+      "originalSha256": "9b8252f28c8a5a44c2fd2e1f362a22e54f554cb4574348f810693e52b32c2899",
+      "normalizedSha256": "9b8252f28c8a5a44c2fd2e1f362a22e54f554cb4574348f810693e52b32c2899"
+    },
+    "examples/get-started/hello_world/CMakeLists.txt": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/get-started/hello_world/CMakeLists.txt",
+      "originalSha256": "49af6567ee0b9c381654ad42f7ea0c40fe61a8ca0d9421625faa01ca21603009",
+      "normalizedSha256": "49af6567ee0b9c381654ad42f7ea0c40fe61a8ca0d9421625faa01ca21603009"
+    },
+    "examples/get-started/hello_world/main/CMakeLists.txt": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/get-started/hello_world/main/CMakeLists.txt",
+      "originalSha256": "116b04da44200b6ddeee8aed45c9fbfb5e487d727c7d29b028e79807e76137cc",
+      "normalizedSha256": "116b04da44200b6ddeee8aed45c9fbfb5e487d727c7d29b028e79807e76137cc"
+    },
+    "examples/get-started/hello_world/main/hello_world_main.c": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/get-started/hello_world/main/hello_world_main.c",
+      "originalSha256": "b2d1c8573307e010d276d2d0df537f1fe752416f8422e267aa8b1661c1744595",
+      "normalizedSha256": "b2d1c8573307e010d276d2d0df537f1fe752416f8422e267aa8b1661c1744595"
+    },
+    "examples/get-started/hello_world/README.md": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/get-started/hello_world/README.md",
+      "originalSha256": "ff3d88ffac063e7e90e6cca9acaef101da29b2c22a60687b1af87b3d4cf8342b",
+      "normalizedSha256": "ff3d88ffac063e7e90e6cca9acaef101da29b2c22a60687b1af87b3d4cf8342b"
+    },
+    "examples/system/freertos/real_time_stats/CMakeLists.txt": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/system/freertos/real_time_stats/CMakeLists.txt",
+      "originalSha256": "7b7faeec69813d608cd584568a714e336408b40e763972066bea49b4d9f486af",
+      "normalizedSha256": "7b7faeec69813d608cd584568a714e336408b40e763972066bea49b4d9f486af"
+    },
+    "examples/system/freertos/real_time_stats/main/CMakeLists.txt": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/system/freertos/real_time_stats/main/CMakeLists.txt",
+      "originalSha256": "00b7cc2a858a0498b52b8515f28512aecd33e93e23e6ae96f6708dfbb4480a63",
+      "normalizedSha256": "00b7cc2a858a0498b52b8515f28512aecd33e93e23e6ae96f6708dfbb4480a63"
+    },
+    "examples/system/freertos/real_time_stats/main/real_time_stats_example_main.c": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/system/freertos/real_time_stats/main/real_time_stats_example_main.c",
+      "originalSha256": "e90ba48a308b9e5735de50e86776ae2b9731fac05ede5bd2a0ad9efef73ab29c",
+      "normalizedSha256": "e90ba48a308b9e5735de50e86776ae2b9731fac05ede5bd2a0ad9efef73ab29c"
+    },
+    "examples/system/freertos/real_time_stats/sdkconfig.defaults": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/system/freertos/real_time_stats/sdkconfig.defaults",
+      "originalSha256": "dd87b8ef92c63b2f067114fd906a08f24842d850b9819ea94d8ffb95b9f414a4",
+      "normalizedSha256": "dd87b8ef92c63b2f067114fd906a08f24842d850b9819ea94d8ffb95b9f414a4"
+    },
+    "examples/system/freertos/real_time_stats/README.md": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/examples/system/freertos/real_time_stats/README.md",
+      "originalSha256": "dea0032817e5048153727f107eca5d95eefbe4e014bcd3553648c021093aba51",
+      "normalizedSha256": "dea0032817e5048153727f107eca5d95eefbe4e014bcd3553648c021093aba51"
+    },
+    "tools/idf_py_actions/constants.py": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/tools/idf_py_actions/constants.py",
+      "originalSha256": "6b4c726103bb16c3cc4fcb4f9bddd8b48c77b8975f4b1d9e0724a8d9e073ff47",
+      "normalizedSha256": "6b4c726103bb16c3cc4fcb4f9bddd8b48c77b8975f4b1d9e0724a8d9e073ff47"
+    },
+    "components/soc/esp32/include/soc/soc_caps.h": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/components/soc/esp32/include/soc/soc_caps.h",
+      "originalSha256": "213208a6322596f9df668f558c8d1435546e30d84dcb988c19ce872793f7a364",
+      "normalizedSha256": "213208a6322596f9df668f558c8d1435546e30d84dcb988c19ce872793f7a364"
+    },
+    "components/soc/esp32s3/include/soc/soc_caps.h": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/components/soc/esp32s3/include/soc/soc_caps.h",
+      "originalSha256": "832796827709840fef9656bcb5711b952abd9d6923ffac729ec4526ae6cf4849",
+      "normalizedSha256": "832796827709840fef9656bcb5711b952abd9d6923ffac729ec4526ae6cf4849"
+    },
+    "components/soc/esp32p4/include/soc/soc_caps.h": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/components/soc/esp32p4/include/soc/soc_caps.h",
+      "originalSha256": "4aba7eaad13804d97e6cf8ff4cfe965e4892438fab43eb1fc18193eb072ad651",
+      "normalizedSha256": "4aba7eaad13804d97e6cf8ff4cfe965e4892438fab43eb1fc18193eb072ad651"
+    },
+    "components/soc/esp32c3/include/soc/soc_caps.h": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/components/soc/esp32c3/include/soc/soc_caps.h",
+      "originalSha256": "23dcfb0a95b159411a20bcec15e05fcf3a6208cebd8d14d96c7f4db45604b652",
+      "normalizedSha256": "23dcfb0a95b159411a20bcec15e05fcf3a6208cebd8d14d96c7f4db45604b652"
+    },
+    "components/soc/esp32c5/include/soc/soc_caps.h": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/components/soc/esp32c5/include/soc/soc_caps.h",
+      "originalSha256": "2ac18d203f62687f5c363afe4768e22c8405495e6439bb305d8aedf4352db9c9",
+      "normalizedSha256": "2ac18d203f62687f5c363afe4768e22c8405495e6439bb305d8aedf4352db9c9"
+    },
+    "components/soc/esp32c6/include/soc/soc_caps.h": {
+      "url": "https://raw.githubusercontent.com/espressif/esp-idf/b774170ff46c393eeb5e495ea37936038d3f4f4f/components/soc/esp32c6/include/soc/soc_caps.h",
+      "originalSha256": "fb55c0cbde7b51185566b144d60038ef576c7ba2d72cffaddfd4351ba046c875",
+      "normalizedSha256": "fb55c0cbde7b51185566b144d60038ef576c7ba2d72cffaddfd4351ba046c875"
+    }
+  },
+  "component": {
+    "id": "espressif.idf",
+    "version": "5.5.5",
+    "manifestSha256": "33f38477c3e05fb99962391249c19e6fb57658302b89504b4270932403e6fe8c"
+  },
+  "targets": [
+    "esp32",
+    "esp32s3",
+    "esp32p4",
+    "esp32c3",
+    "esp32c5",
+    "esp32c6"
+  ]
+}

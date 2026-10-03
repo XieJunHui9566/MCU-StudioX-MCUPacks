@@ -1,10 +1,14 @@
 # MCU StudioX 器件包
 
+2026-10-04：补齐 **ESP-IDF 5.5.5、6.0.3、6.1.0 的 18 个独立模板包**，每包提供 Hello World 和 FreeRTOS。原 IDF 5.5.4 包继续保留，共四种 SDK 可明确选择；公开目录现有 **352 包**。见 [Espressif 多版本模板](Espressif/README.md)。
+
 2026-09-30：新增 **272 个 ARM32 器件包 / 2,777 个器件条目**。公开目录现有 **334 包**，其中 **325 个 ARM32 包 / 3,453 个器件条目**。原有 62 包内容、版本及校验值未改变；IDE 保持 **0.2.5.3**。详见 [本轮更新说明](UPDATE-ARM32-2026-09-30.md)、[新增包清单](ARM32-PACKS-2026-09-30.md) 和 [ARM32 整包下载](https://github.com/XieJunHui9566/MCU-StudioX-MCUPacks/releases/tag/arm32-2026-09-30)。
 
-这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。原有目录收录 16 个普冉 PY32 包、2 个 Raspberry Pi RP2040 / RP2350 包、23 个 STM32 HAL 包、13 个 GD32 包、7 个 Espressif 包及 1 个 STC 包，共 **62 个**；本轮另增 272 包，全部采用 StudioX Pack **格式 1**。器件包保留各自独立版本号。每个包 ID 只保留当前可公开的最新版本。
+这里按芯片品牌存放 [MCU StudioX](https://github.com/XieJunHui9566/MCU-StudioX) 的 `.mcupack` 器件包。原有目录收录 16 个普冉 PY32 包、2 个 Raspberry Pi RP2040 / RP2350 包、23 个 STM32 HAL 包、13 个 GD32 包、7 个 Espressif 包及 1 个 STC 包，共 **62 个**；2026-09-30 扩展 272 包，2026-10-04 补充 18 个 ESP-IDF 模板包，全部采用 StudioX Pack **格式 1**。器件包保留各自独立版本号。普通包保留当前可公开的最新版本；不同 SDK 或开发环境组件需求的模板保留独立版本。
 
 此前 0.2.5.2 配套更新新增 RP2040 并更新 RP2350，两包均为 0.2.0，提供 C SDK 与 MicroPython 模板。已有 STM32 HAL、Puya 和 GD32 的公开修订保持不变；旧 RP2350 文件由新版替代，Git 历史保留。详见[0.2.5.2 更新](UPDATE-0.2.5.2.md)及[第三方来源](THIRD_PARTY_NOTICES.md)。
+
+下表列出原有基础包；ESP32 的四种 SDK 版本下载见 [多版本模板表](Espressif/README.md)。
 
 | 品牌 | 器件包 | 版本 | 收录范围 | 验证状态 |
 | --- | --- | --- | --- | --- |
@@ -82,6 +86,8 @@ STM32 的 23 个 HAL-only 包共覆盖 244 个基础型号，只含来自 ST 官
 ## IDE 在线同步
 
 IDE 可以从本仓库的 [index.json](index.json) 获取公开器件包目录，比较本地已安装的包，只下载新增或更新的 `.mcupack`，校验 SHA-256 后再自动导入。索引的 `formatVersion` 表示目录格式；每个 `packs` 条目包含仓库相对路径 `path`、包标识 `id`、版本 `version`、文件校验值 `sha256` 和字节数 `size`。`id`、`version` 取自包内的 `manifest.json`，校验值与 [SHA256SUMS.txt](SHA256SUMS.txt) 一致。下载与索引应固定在同一仓库提交上，避免同步期间分支更新造成版本不一致。
+
+可选的 `retainVersion: true` 表示需要并存的受支持版本。支持该字段的 IDE 会获取这些精确身份以及每个 ID 的最高版本；未标记的普通包继续只取最高版本。ESP32 不同 SDK 的包均显式保留，早期 IDE 可手动下载所需包导入。
 
 在线目录只收录已完成来源及再分发许可核查的器件包；其他本地包不会因 IDE 同步而上传到此仓库。SHA-256 用于检查下载文件的完整性，包内源码仍遵循各自的第三方许可。
 

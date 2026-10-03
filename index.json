@@ -209,42 +209,192 @@
       "id": "espressif.esp32-wroom-32",
       "version": "0.1.1",
       "sha256": "ff8ded9c0a06a0bdd2802b4fbd72b010704322dfadb2f0a62b6cf9ce7d286aad",
-      "size": 22020
+      "size": 22020,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32-wroom-32-0.2.0.mcupack",
+      "id": "espressif.esp32-wroom-32",
+      "version": "0.2.0",
+      "sha256": "5c930e92a44de6a23c71c46f6cc4b03d80a470dcf9ee91e33555c1eeadeff059",
+      "size": 23015,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32-wroom-32-0.3.0.mcupack",
+      "id": "espressif.esp32-wroom-32",
+      "version": "0.3.0",
+      "sha256": "e092d1014ddb8abf6ef79759fa9ae795f237764a8344e2aa15a667a1d272b2fe",
+      "size": 23010,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32-wroom-32-0.4.0.mcupack",
+      "id": "espressif.esp32-wroom-32",
+      "version": "0.4.0",
+      "sha256": "20bdeddb02a1205d6956630f8708a8f8e09d55f6dde2f99d67861e831e5ad5da",
+      "size": 23031,
+      "retainVersion": true
     },
     {
       "path": "Espressif/espressif.esp32c3-0.1.1.mcupack",
       "id": "espressif.esp32c3",
       "version": "0.1.1",
       "sha256": "d68b2f505c70e9d1da98ea9d3fab690a7f306015942d8cf9754eb8cd32e11d11",
-      "size": 22021
+      "size": 22021,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c3-0.2.0.mcupack",
+      "id": "espressif.esp32c3",
+      "version": "0.2.0",
+      "sha256": "a7d997c8cec2a8667b02114caa4d219ab3f839ce81511004ba53d1ca7e83e587",
+      "size": 23026,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c3-0.3.0.mcupack",
+      "id": "espressif.esp32c3",
+      "version": "0.3.0",
+      "sha256": "93e9aeb8221141225ac699c852f4b596e408b2549942acce904f39d707bed640",
+      "size": 23017,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c3-0.4.0.mcupack",
+      "id": "espressif.esp32c3",
+      "version": "0.4.0",
+      "sha256": "5499f0005c5fa22778974104afbb077728fafc08b62dfa08ef0ec9a8d4b68755",
+      "size": 23038,
+      "retainVersion": true
     },
     {
       "path": "Espressif/espressif.esp32c5-0.1.1.mcupack",
       "id": "espressif.esp32c5",
       "version": "0.1.1",
       "sha256": "a096d2028eb0f0cf6597c249b69538ee5a8fcb8c2592ad1486b34c02e2c9f719",
-      "size": 22021
+      "size": 22021,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c5-0.2.0.mcupack",
+      "id": "espressif.esp32c5",
+      "version": "0.2.0",
+      "sha256": "617be89e4dca192adc387d22b53f1277065249f0720495b856cb2c5c47d605b3",
+      "size": 23024,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c5-0.3.0.mcupack",
+      "id": "espressif.esp32c5",
+      "version": "0.3.0",
+      "sha256": "e959b841a856950740a1580b9aed31cffd6b06a8d0385d0e93d50701d77b3370",
+      "size": 23018,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c5-0.4.0.mcupack",
+      "id": "espressif.esp32c5",
+      "version": "0.4.0",
+      "sha256": "f3bfcd918cba040b1e98b8426e95d84034df3144843b9ce6c29157f1e9c0f731",
+      "size": 23038,
+      "retainVersion": true
     },
     {
       "path": "Espressif/espressif.esp32c6-0.1.1.mcupack",
       "id": "espressif.esp32c6",
       "version": "0.1.1",
       "sha256": "9fe598dd8ea990954840db66903fb86d9c4b5f02052ce6a859dc388ba0f1ab3c",
-      "size": 22023
+      "size": 22023,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c6-0.2.0.mcupack",
+      "id": "espressif.esp32c6",
+      "version": "0.2.0",
+      "sha256": "9455389b26d9af09f107955796e67370c42ae1a1964777488b92150d26e4ac9d",
+      "size": 23027,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c6-0.3.0.mcupack",
+      "id": "espressif.esp32c6",
+      "version": "0.3.0",
+      "sha256": "28c39f6ea9a05177bff57640b197d104567e4d6cce27653d268267275327a84a",
+      "size": 23016,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32c6-0.4.0.mcupack",
+      "id": "espressif.esp32c6",
+      "version": "0.4.0",
+      "sha256": "1e948ce63f494a7ec4faedc255851937377e0b2d6837d85758aa9e623334e6b9",
+      "size": 23040,
+      "retainVersion": true
     },
     {
       "path": "Espressif/espressif.esp32p4-0.1.1.mcupack",
       "id": "espressif.esp32p4",
       "version": "0.1.1",
       "sha256": "dce1f0d1fb388ab7429eb9ad0cd5bbd1931f154bfd83d535f658c4fceed80b8d",
-      "size": 22023
+      "size": 22023,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32p4-0.2.0.mcupack",
+      "id": "espressif.esp32p4",
+      "version": "0.2.0",
+      "sha256": "64d14ddda9ded5834778fa77c48420481deb47f2d7a4a0bf8e9c5d3bde14739d",
+      "size": 23029,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32p4-0.3.0.mcupack",
+      "id": "espressif.esp32p4",
+      "version": "0.3.0",
+      "sha256": "1fe0f54b824975a3bb1e92ebf15f768f4eb30eb50ab3eeb42436da4988c16fb3",
+      "size": 23020,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32p4-0.4.0.mcupack",
+      "id": "espressif.esp32p4",
+      "version": "0.4.0",
+      "sha256": "7408a0463eab205831f692385d8b5f16ef9a8df2299647393901a2c7d7ccaeeb",
+      "size": 23040,
+      "retainVersion": true
     },
     {
       "path": "Espressif/espressif.esp32s3-0.1.1.mcupack",
       "id": "espressif.esp32s3",
       "version": "0.1.1",
       "sha256": "3bcc72c4de4727ff0448c003db6d5fc86f56249162a21f0ecafbca7cce5d3f6d",
-      "size": 22029
+      "size": 22029,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32s3-0.2.0.mcupack",
+      "id": "espressif.esp32s3",
+      "version": "0.2.0",
+      "sha256": "8a3fa63480cf4a37e649d840fcb40a334bd37653c049f27506bc5e540775be9d",
+      "size": 23028,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32s3-0.3.0.mcupack",
+      "id": "espressif.esp32s3",
+      "version": "0.3.0",
+      "sha256": "235036e217d424ff115bff89c06f2f9837740b71504f6ba5a55997adb84c2a96",
+      "size": 23020,
+      "retainVersion": true
+    },
+    {
+      "path": "Espressif/espressif.esp32s3-0.4.0.mcupack",
+      "id": "espressif.esp32s3",
+      "version": "0.4.0",
+      "sha256": "875a7b309ad2f33712b3db6cfe3212be8b42114485f91d60f217d55f1824f405",
+      "size": 23040,
+      "retainVersion": true
     },
     {
       "path": "Espressif/espressif.esp8266-0.1.0.mcupack",

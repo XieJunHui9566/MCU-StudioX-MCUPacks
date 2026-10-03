@@ -78,3 +78,7 @@ WCH CH32V203、CH32V307、CH592、CH595 的当前 SDK 仅保留厂商版权及�
 | NXP | 18 包；旧 LPC 包保留源文件内的 BSD/开发工具分发条款及 DFP 原许可。6 个 MCUXpresso 包内保留 Software Content Register：所选器件/驱动文件按其 BSD-3-Clause 声明分发，补入 NXP 官方 licenses/COPYING-BSD-3 全文；不将专有中间件授权推及其它组件。 |
 
 全部新包另保留 Arm CMSIS 6.3.0 所需的 Apache-2.0 正文。生成的复位/向量文件随包保留原始文件，新增日期和转换说明不替代其适用条款。编译验证并不证明拥有 SDK 再分发权，因此本轮特定受限/未明确授权的包没有公开；不将本地 330 包 ZIP 作为 GitHub 下载附件。
+
+## 2026-10-04 ESP-IDF 多版本模板
+
+新增 18 包分别使用 Espressif 官方固定提交的 IDF 5.5.5、6.0.3、6.1（SDK 版本 6.1.0）示例。仅将 CRLF 规范化为 LF，保留 CC0/公共领域版权头与 Apache-2.0 LICENSE；不包含完整 SDK、工具链或 Python。固定提交、每文件来源 URL、原始与规范化 SHA-256 及组件指纹见 [来源记录](validation/esp-idf-2026-10-04)。旧 334 个包的文件、大小和 SHA-256 均保持原值。
