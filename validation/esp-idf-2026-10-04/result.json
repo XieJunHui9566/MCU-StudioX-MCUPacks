@@ -6,7 +6,7 @@
   "hardware": false,
   "ideSourceCommit": "38efcb20e35f16ede83138422fe1a823d2729c84",
   "packRepositoryBaseCommit": "48101570eb3c906e0dc9624344dad00343159b24",
-  "catalogSha256": "b94aef1c659433da49f5dd40c0677aa7eece42581e3197c98813795467a1c8ea",
+  "catalogSha256": "500c96c202d50192d66424bbd239ae5096f988543e3a5586dc9da9f4d78993ea",
   "catalog": {
     "totalPacks": 352,
     "newPacks": 18,
@@ -43,7 +43,7 @@
       "manifestSha256": "33f38477c3e05fb99962391249c19e6fb57658302b89504b4270932403e6fe8c",
       "upstreamTag": "v5.5.5",
       "upstreamCommit": "b774170ff46c393eeb5e495ea37936038d3f4f4f",
-      "templateSourceSha256": "9894afc0c67a10d1f14c7689eb56d79e5f1faaeff7ccb8c4a7b9eedf65805fc1",
+      "templateSourceSha256": "b89abf001af8b36992bb8a2572a6fd94a5df24fded6972095e60ec5e2c508b40",
       "releaseEvidence": "https://github.com/XieJunHui9566/MCU-StudioX-Toolchains/blob/7a27860f05750ae5ec6e5f8a0d7919cdbfbe75b3/releases/espressif.idf-5.5.5-win-x64.json",
       "releaseEvidenceSha256": "33585b6c0949f605d118e85de212698731b4b64a1c1579802f4f278f302d236b",
       "archiveSha256": "1fff5dfbce7b32eee4d34677dfe5c3bb62c1e5adca5eba6e5dede96ee5a32433"
@@ -54,7 +54,7 @@
       "manifestSha256": "39f22f8017c09d865bd367c76e10e58b3b9c3f2eed2d914960eae757f3d8f0bf",
       "upstreamTag": "v6.0.3",
       "upstreamCommit": "76f5dedd9950a3012fee8fb7d5586df21fc67802",
-      "templateSourceSha256": "ca504a89d2fe54a5d32321d96818e5e6fe68676ea05fc1b014988d59c6805493",
+      "templateSourceSha256": "291de0dead307cd47a4f82a558a17b956e801679c316b03c87b88896eebb035c",
       "releaseEvidence": "https://github.com/XieJunHui9566/MCU-StudioX-Toolchains/blob/7a27860f05750ae5ec6e5f8a0d7919cdbfbe75b3/releases/espressif.idf-6.0.3-win-x64.json",
       "releaseEvidenceSha256": "cc0e560390a27602652c4e8f4ea76be18be4c36b27ec1feb6dfd4080a449c0f7",
       "archiveSha256": "be5d84d39f21838b3d75117753a64a2466988885c0969e6fb893e47d84f44d16"
@@ -65,7 +65,7 @@
       "manifestSha256": "3f7c9501c70555aac188f9266863f028cc977934d7e03f0eeffc0410cee98f95",
       "upstreamTag": "v6.1",
       "upstreamCommit": "fff9895c82d744c7237be8847347bdd1b07c6643",
-      "templateSourceSha256": "8755f557b74a58d2b3265097dc8e31c4828e1431472e0942573a7120025cdd61",
+      "templateSourceSha256": "b1b5fa8dcfa227ddfd82f4891e51fb81b724b1b6b35caf09f35cfe16e2bcf252",
       "releaseEvidence": "https://github.com/XieJunHui9566/MCU-StudioX-Toolchains/blob/7a27860f05750ae5ec6e5f8a0d7919cdbfbe75b3/releases/espressif.idf-6.1.0-win-x64.json",
       "releaseEvidenceSha256": "15f90157b26b251deeb324c8206684fe83ef1761857da5402331492c504306d3",
       "archiveSha256": "1e94ebf42c6f91fa1ac069fc1c94f012d767ce5240a6630a9f8582e5cdab6d28"
